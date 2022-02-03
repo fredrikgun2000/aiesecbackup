@@ -1,0 +1,43 @@
+.landing1{
+    background-image: url('/assets/external/images/development/landing.png');
+    width: 100%;
+    height: 585.798px;
+    position: absolute;
+    z-index: 3;
+}
+
+.landing2{
+    background-image: url('/assets/external/images/development/landscape.jpg');
+    width: 885.022px;
+    height: 580.798px;
+    position: absolute;
+    right: 0;
+    z-index: 1;
+}
+
+.landing3{
+    background-color: rgba(0, 0, 0, 0.4);
+    width: 100%;
+    height: 580.798px;
+    position: absolute;
+    z-index: 2;
+}
+
+.landing4{
+    width: 100%;
+    height: 585.798px;
+    position: relative;
+    z-index: 4;
+}
+
+.landing1, .landing2{
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 0;
+}
+
+@media screen and (min-width: 993px) {
+    nav ul li{
+        color: white !important;
+    }
+}

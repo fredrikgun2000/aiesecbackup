@@ -1,0 +1,24 @@
+#banner{
+    width: 100%;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#banner::after{
+    content: '';
+    display: block;
+    height: 300px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+#logo_sdgs{
+    border-radius: 100%;
+}
+
+@media screen and (min-width: 993px) {
+    nav ul li{
+        color: white !important;
+    }
+}
